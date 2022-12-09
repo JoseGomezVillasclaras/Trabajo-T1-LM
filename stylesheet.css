@@ -1,29 +1,58 @@
-.cabecera{
+.cabecera {
     background-color: #797d62;
-    height: 100px;
-    width: auto;
-    border: 1px solid gray; 
+    height: 150px;
+    width: 90%;
+    border: 1px solid gray;
+    display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    position: fixed;
+    border-radius: 10px;
+    left: 5%;
+    top: 30px;
 
 }
-body{
+
+body {
     background-color: #d08c60;
 }
-.pasador{
 
-    display:block;
+.contenedorTextoCabecera {
+    display: block;
+    font-size: medium;
+    height: min-content;
+    top: 20px;
+    position: absolute;
+    top: 2;
+
+}
+
+.Indice {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #ffcb69;
+
+}
+
+.pasador {
+
+    display: block;
+    align-self: center;
     background-color: #ffcb69;
     width: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
+    font-weight: 200;
     border-radius: 10px;
-    padding: 15px,30px;
-    margin: 150px 130px;
-    color: rgba(233, 243, 205, 0.925);
-      
+    padding: 15px 30px;
+    color: #997b66;
+
+
 }
-a:hover{
+
+a:hover {
     background-color: transparent;
     border: 2px solid #ffcb69;
     color: rgba(233, 243, 205, 0.925);
+
 }
