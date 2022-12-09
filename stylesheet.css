@@ -1,5 +1,29 @@
-cabecera{
-    background-color: red;
+.cabecera{
+    background-color: #797d62;
     height: 100px;
-    width: 20%;
+    width: auto;
+    border: 1px solid gray; 
+    flex-direction: row;
+
+}
+body{
+    background-color: #d08c60;
+}
+.pasador{
+
+    display:block;
+    background-color: #ffcb69;
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 15px,30px;
+    margin: 150px 130px;
+    color: rgba(233, 243, 205, 0.925);
+      
+}
+a:hover{
+    background-color: transparent;
+    border: 2px solid #ffcb69;
+    color: rgba(233, 243, 205, 0.925);
 }
