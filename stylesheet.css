@@ -1,3 +1,17 @@
+
+
+
+
+.Main{
+   
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+}
+
 .cabecera {
     background-color: #797d62;
     height: 150px;
@@ -6,15 +20,31 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    position: fixed;
+    position: relative;
     border-radius: 10px;
     left: 5%;
     top: 30px;
 
 }
 
+
+.piePag{
+    background-color: #825F45;
+    height: 180px;
+    width: 90%;
+    left: 5%;  
+    top: 600px;
+    display:block ;
+    align-self:center;
+    position: absolute;
+    border-radius: 20px;
+}
+
+
 body {
     background-color: #d08c60;
+    margin: 0px;
+    padding: 0px;
 }
 
 .contenedorTextoCabecera {
@@ -27,12 +57,23 @@ body {
 
 }
 
-.Indice {
+.text1 {
 
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
     color: #ffcb69;
+    font-size: xx-large ;
+    text-decoration: underline;
+    letter-spacing: 5px;
 
+}
+.text2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: white;
+    font-size:  20px;;
+    text-align: justify;
+ 
 }
 
 .pasador {
@@ -56,3 +97,57 @@ a:hover {
     color: rgba(233, 243, 205, 0.925);
 
 }
+
+.contendorTextoLateral{
+display: block;
+background-color: #997b66;
+width: 55vh;
+height: auto;
+top: 15px;
+left: 80px;
+align-self: flex-end;
+
+position: relative;
+border-radius: 20px;
+text-align: justify;
+
+}
+.imgs{
+    
+    left: 650px;
+    position:relative;
+    display: block;
+    top: -250px;
+    
+     
+}
+.imagen1{
+    width: 360px;
+    height: 245px;
+    display: block;
+    position: absolute;
+    left: 20%;
+    
+}
+.imagen2{
+    
+}
+#img1 {
+    border-radius: 50px;
+    
+}
+.contenedorMedio{
+position: relative;
+width: 90%;
+height: 400px;
+display: block;
+top: 100px;
+
+align-self: center;
+}
+.contenedorBajo{
+    position: relative;
+    width: 1080px; 
+}
+
+
