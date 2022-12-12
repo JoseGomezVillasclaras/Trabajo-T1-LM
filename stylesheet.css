@@ -116,22 +116,30 @@ text-align: justify;
     
     left: 650px;
     position:relative;
-    display: block;
+    display: flex;
     top: -250px;
-    
+    flex-direction: row;
+    gap: 10px;
      
 }
 .imagen1{
-    width: 360px;
-    height: 245px;
+    width: 400px;
+    height: 400px;
     display: block;
-    position: absolute;
-    left: 20%;
-    
+    position: relative;
+    left: 20%; 
 }
 .imagen2{
+    width: 400px;
+    height: 400px;
+    display: block;
+    position: relative;
+    
+
+
     
 }
+
 #img1 {
     border-radius: 50px;
     
