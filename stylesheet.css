@@ -1,15 +1,11 @@
+.Main {
 
-
-
-
-.Main{
-   
     margin: 0px;
     padding: 0px;
     height: 100%;
     width: 100%;
     position: absolute;
-    
+
 }
 
 .cabecera {
@@ -25,30 +21,37 @@
     left: 5%;
     top: 30px;
 
+
+
 }
 
 
-.piePag{
+.piePag {
     background-color: #825F45;
     height: 180px;
     width: 90%;
-    left: 5%;  
-    top: 600px;
-    display:block ;
-    align-self:center;
+    left: 5%;
+    top: 7 50px;
+    display: flex;
+    align-self: center;
     position: absolute;
     border-radius: 20px;
+}
+article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 
 body {
-    
+
     margin: 0px;
     padding: 0px;
 }
 
 .contenedorTextoCabecera {
-    display: block;
+    display: flex;
     font-size: medium;
     height: min-content;
     top: 20px;
@@ -62,21 +65,28 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
     color: #ffcb69;
-    font-size: xx-large ;
+    font-size: xx-large;
     text-decoration: underline;
     letter-spacing: 5px;
     text-shadow: 0 0 4px #fdbf4a;
 
 }
-.text2{
+
+.text2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
     color: white;
-    font-size:  20px;;
-    text-align: justify;
- 
-}
+    font-size: 20px;
+    ;
+    
+    padding-left: 5px;
 
+}
+p{
+    column-count: 3;
+    padding-left: 10px;
+    padding-top: 0px;
+}
 .pasador {
 
     display: block;
@@ -85,9 +95,15 @@ body {
     width: 65px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
-    border-radius: 10px;
+    color: #ffcb69;
+
     padding: 15px 30px;
-    color: #997b66;
+    
+
+    border-radius: 84px;
+    background: #797d62;
+    box-shadow: 28px 28px 56px #61644e,
+        -28px -28px 56px #919676;
 
 
 }
@@ -99,65 +115,109 @@ a:hover {
 
 }
 
-.contendorTextoLateral{
-display: block;
-background-color: #997b66;
-width: 55vh;
-height: auto;
-top: 15px;
-left: 80px;
-align-self: flex-end;
+.contendorTextoLateral {
+    display: block;
+    background-color: #997b66;
+    width: 55vh;
+    height: auto;
+    top: 15px;
+    left: 80px;
+    align-self: flex-end;
 
-position: relative;
-border-radius: 20px;
-text-align: justify;
+    position: relative;
+    border-radius: 20px;
+    text-align: justify;
 
 }
-.imgs{
-    
+
+.imgs {
+
     left: 650px;
-    position:relative;
+    position: relative;
     display: flex;
     top: -250px;
     flex-direction: row;
     gap: 10px;
-     
-}
-.imagen1{
-    width: 400px;
-    height: 400px;
-    display: block;
-    position: relative;
-    left: 20%; 
-}
-.imagen2{
-    width: 400px;
-    height: 400px;
-    display: block;
-    position: relative;
-    bottom: 10px;
-    
 
+}
+.imgs1 {
 
     
+    position: relative;
+    display: flex;
+    left: 50vh;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.imagen1 {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    left: 20%;
+}
+
+.imagen2 {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    position: relative;
+
+
+
+
+
 }
 
 #img1 {
     border-radius: 50px;
-    
-}
-.contenedorMedio{
-position: relative;
-width: 90%;
-height: 400px;
-display: block;
-top: 100px;
 
-align-self: center;
 }
-.contenedorBajo{
+
+.contenedorMedio {
     position: relative;
-    width: 1080px; 
+    width: 90%;
+    height: 400px;
+    display: block;
+    top: 50px;
+
+    align-self: center;
+}
+
+.contenedorBajo {
+    position: relative;
+    width: 1080px;
 }
 
 
+
+#portaFoto {
+    width: 50vw;
+    height: 50vh;
+    background-color: lightpink;
+    display: block;
+}
+
+#laFoto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+@media screen and (orientation:landscape) {
+    #portaFoto {
+        max-width: 1920px;
+        max-height: 1280px;
+    }
+}
+
+@media screen and (orientation:portrait) {
+    #portaFoto {
+        max-width: 800px;
+        max-height: 1200px;
+    }
+}
